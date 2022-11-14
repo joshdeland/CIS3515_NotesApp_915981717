@@ -36,6 +36,7 @@ class BookViewModel : ViewModel() {
     }
 
     fun clearSelectedBook () {
+        viewedBook = true
         selectedBook?.value = null
     }
 
